@@ -1,8 +1,7 @@
 import logging
 import requests
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext
-from telegram.ext import Filters
+from telegram.ext import Updater, CommandHandler, CallbackContext, filters
 
 # Your Bot's token
 TOKEN = '7589124589:AAHRqzCUFBRXc7pj_94uzYXHraTObAp6Y48'
@@ -59,7 +58,7 @@ def start(update: Update, context: CallbackContext):
 # Command: /adduser <user_id>
 def add_user(update: Update, context: CallbackContext):
     # Only allow the bot owner (use the user ID of the bot owner)
-    bot_owner_id = 123456789  # Replace with your Telegram user ID
+    bot_owner_id = 5753369341  # Replace with your Telegram user ID
     
     # Get the user ID of the sender
     user_id = update.message.from_user.id
@@ -141,3 +140,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+                                  
