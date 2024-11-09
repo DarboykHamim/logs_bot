@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # Telegram bot token
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-AUTHORIZED_USER_ID = 123456789  # Replace with the authorized user's Telegram user ID
+TELEGRAM_TOKEN = "7589124589:AAHRqzCUFBRXc7pj_94uzYXHraTObAp6Y48"
+AUTHORIZED_USER_ID = 5753369341  # Replace with the authorized user's Telegram user ID
 
 # API endpoint
 API_URL = "https://noxsword.serv00.net/logs.php?find="
